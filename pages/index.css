@@ -1,5 +1,16 @@
 @import url(../vendor/fonts.css);
 @import url(../vendor/normalize.css);
+@import url(../blocks/intro/intro.css);
+@import url(../blocks/intro/__title/intro__tittle.css);
+@import url(../blocks/intro/__text/intro__text.css);
+@import url(../blocks/intro/__list/intro__list.css);
+@import url(../blocks/intro/__list-string/intro__list-string.css);
+@import url(../blocks/intro/__span/intro__span.css);
+@import url(../blocks/header/header.css);
+@import url(../blocks/header/__logo/header__logo.css);
+@import url(../blocks/header/__lang/header__lang.css);
+@import url(../blocks/header/__lang-link/header__lang-link.css);
+@import url(../blocks/header/__lang-link/_active/header__lang-link_active.css);
 
 .page {
   font-family: 'Inter', Arial, sans-serif;
@@ -10,70 +21,3 @@
   max-width: 1440px; /* ограничил разрешение */
 }
 
-.intro {
-  margin: 0;
-  padding: 64px 16px;
-}
-
-.intro__title {
-  font-size: 32px;
-  line-height: 35px;
-  font-weight: 900;
-  margin: 0 0 40px;
-}
-
-.intro__text {
-  font-size: 16px;
-  font-weight: 400;
-  line-height: 26px;
-  margin: 0 0 34px;
-}
-
-.intro__list {
-  list-style: none;
-  padding: 0;
-  margin: 0;
-}
-
-.intro__list-string {
-  font-size: 12px;
-  line-height: 18px;
-  font-weight: 700;
-}
-
-.intro__span {
-  font-size: 12px;
-  line-height: 18px;
-  font-weight: 400;
-}
-
-@media (min-width: 768px) {
-  .intro {
-    padding: 88px 24px;
-  }
-  .intro__title {
-    font-size: 54px;
-    line-height: 58px;
-  }
-  .intro__text {
-    margin-bottom: 33px;
-  }
-}
-
-@media (min-width: 770px) {
-  .intro {
-    max-width: 690px;
-  }
-}
-
-@media (min-width: 1024px) {
-  .intro {
-    padding: 92px 48px;
-  }
-}
-
-@media (min-width: 1280px) {
-  .intro {
-    padding-left: 148px;
-  }
-}

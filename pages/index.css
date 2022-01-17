@@ -56,11 +56,6 @@
   transition: background-color .4s ease;
 }
 
-
-.cover:hover::before  {
-  background-color: rgb(42, 44, 47, .8);
-}
-
 .cover__title {
   margin: 0 0 16px;
   padding: 0;
@@ -79,6 +74,12 @@
   line-height: 16px;
   font-weight: 400;
   max-width: 288px;
+}
+
+@media (any-hover: hover) {
+  .cover:hover::before  {
+    background-color: rgb(42, 44, 47, .8);
+  }
 }
 
 @media (min-width: 667px) { /* альбомное iphone 8 new SE */

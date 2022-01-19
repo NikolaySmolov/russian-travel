@@ -1,0 +1,32 @@
+
+.footer__table {
+  margin: 0 16px 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+@media (min-width: 568px) {
+  .footer__table {
+    margin-left: 24px;
+    margin-right: 24px;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: space-between;
+  }
+}
+
+@media (min-width: 1024px) {
+  .footer__table {
+    margin-left: 48px;
+    margin-right: 48px;
+  }
+}
+
+@media (min-width: 1280px) {
+  .footer__table {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1184px;
+  }
+}

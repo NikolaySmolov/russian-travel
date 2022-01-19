@@ -23,6 +23,13 @@
 @import url(../blocks/cover/cover.css);
 @import url(../blocks/cover/__title/cover__title.css);
 @import url(../blocks/cover/__subtitle/cover__subtitle.css);
+@import url(../blocks/footer/footer.css);
+@import url(../blocks/footer/__table/footer__table.css);
+@import url(../blocks/footer/__nav/footer_nav.css);
+@import url(../blocks/footer/__nav-list/footer__nav-list.css);
+@import url(../blocks/footer/__list-item/footer__list-item.css);
+@import url(../blocks/footer/__link/footer__link.css);
+@import url(../blocks/footer/__copyright/footer__copyright.css);
 
 
 .page {
@@ -42,6 +49,11 @@
   margin: 66px auto 64px;
 }
 
+.page__header {
+  margin-left: auto;
+  margin-right: auto;
+}
+
 @media (min-width: 768px) {
   .page__cover {
     margin: 90px auto 88px;
@@ -54,99 +66,3 @@
   }
 }
 
-.footer {
-  margin: 0;
-  padding: 0;
-}
-
-.footer__table {
-  margin: 0 16px 0;
-  padding: 0;
-  display: flex;
-  flex-direction: column;
-}
-
-.footer__nav {
-  margin: 0 0 48px;
-  padding: 0;
-}
-
-.footer__nav-list {
-  margin: 0;
-  padding: 0;
-  list-style: none;
-}
-
-.footer__list-item {
-  margin: 0 0 32px;
-  padding: 0;
-  font-size: 24px;
-  font-weight: 400;
-  line-height: 24px;
-}
-
-.footer__list-item:last-child {
-  margin-bottom: 0;
-}
-
-.footer__link {
-  margin: 0;
-  padding: 0;
-  color: inherit;
-  text-decoration: none;
-}
-
-.footer__copyright {
-  margin: 0 0 24px;
-  padding: 0;
-  font-style: normal;
-  font-family: Inter;
-  font-size: 14px;
-  font-weight: 400;
-  line-height: 14px;
-}
-
-
-@media (min-width: 568px) {
-  .footer__table {
-    margin-left: 24px;
-    margin-right: 24px;
-    flex-direction: row;
-    align-items: flex-end;
-    justify-content: space-between;
-  }
-
-  .footer__nav {
-    margin-bottom: 0;
-  }
-  
-  .footer__nav-list {
-  font-size: 0;
-  }
-
-  .footer__list-item {
-    margin-bottom: 24px;
-    margin-right: 18px;
-    display: inline-block;
-    font-size: 16px;
-    line-height: 18px;
-  }
-
-  .footer__list-item:last-child {
-    margin-bottom: 24px;
-  }
-
-  .footer__copyright {
-    margin-left: 24px;
-    line-height: 16px;
-    max-width: 30%;
-    flex-shrink: 0;
-  }
-}
-
-@media (min-width: 1024px) {
-  .footer__table {
-    margin-left: 48px;
-    margin-right: 48px;
-  }
-}

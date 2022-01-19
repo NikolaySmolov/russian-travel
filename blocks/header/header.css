@@ -17,3 +17,11 @@
     padding-right: 48px;
   }
 }
+
+@media (min-width: 1280px) {
+  .header {
+    padding-left: 0;
+    padding-right: 0;
+    max-width: 1184px;
+  }
+}

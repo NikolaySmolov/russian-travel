@@ -1,0 +1,10 @@
+.place__article {
+  margin: 0 16px;
+}
+
+@media (min-width: 768px) {
+  .place__article {
+    margin-left: 0;
+    margin-right: 0;
+  }
+}

@@ -34,19 +34,21 @@
           <li class="intro__list-string">Аэропортов<span class="intro__span"> 241</span></li>
         </ul>
       </section>
-      <section class="photo-grid page__photo-grid">
-        <img src="./images/photo-grid-train.jpg" alt="вид из окна вагона в поезде" class="photo-grid__item">
-        <img src="./images/photo-grid-atharva-tulsi.jpg" alt="гора атхарва тулси" class="photo-grid__item">
-        <img src="./images/photo-grid-tuman.jpg" alt="туман" class="photo-grid__item">
-        <img src="./images/photo-grid-sochi.jpg" alt="сочи" class="photo-grid__item">
-        <img src="./images/photo-grid-arisa.jpg" alt="ариса" class="photo-grid__item">
-        <img src="./images/photo-grid-baikal.jpg" alt="байкал" class="photo-grid__item">
-        <img src="./images/photo-grid-elbrus.jpg" alt="эльбрус" class="photo-grid__item">
-        <img src="./images/photo-grid-kondratiev.jpg" alt="кондратьев" class="photo-grid__item">
-        <img src="./images/photo-grid-kamchatka-1.jpg" alt="камчатка" class="photo-grid__item">
-        <img src="./images/photo-grid-kamchatka-2.jpg" alt="камчатка" class="photo-grid__item">
-        <img src="./images/photo-grid-baikal-2.jpg" alt="байкал" class="photo-grid__item">
-        <img src="./images/photo-grid-ergaki.jpg" alt="ергаки" class="photo-grid__item">
+      <section class="photo-grid">
+        <li class="photo-grid__list">
+          <img src="./images/photo-grid-train.jpg" alt="из окна поезда" class="photo-grid__item">
+          <img src="./images/photo-grid-atharva-tulsi.jpg" alt="гора атхарва тулси" class="photo-grid__item">
+          <img src="./images/photo-grid-tuman.jpg" alt="туман" class="photo-grid__item">
+          <img src="./images/photo-grid-sochi.jpg" alt="сочи" class="photo-grid__item">
+          <img src="./images/photo-grid-arisa.jpg" alt="ариса" class="photo-grid__item">
+          <img src="./images/photo-grid-baikal.jpg" alt="байкал" class="photo-grid__item">
+          <img src="./images/photo-grid-elbrus.jpg" alt="эльбрус" class="photo-grid__item">
+          <img src="./images/photo-grid-kondratiev.jpg" alt="кондратьев" class="photo-grid__item">
+          <img src="./images/photo-grid-kamchatka-1.jpg" alt="камчатка" class="photo-grid__item">
+          <img src="./images/photo-grid-kamchatka-2.jpg" alt="камчатка" class="photo-grid__item">
+          <img src="./images/photo-grid-baikal-2.jpg" alt="байкал" class="photo-grid__item">
+          <img src="./images/photo-grid-ergaki.jpg" alt="ергаки" class="photo-grid__item">
+        </li>
       </section>
       <section class="places">
         <ul class="places__list">
@@ -55,7 +57,7 @@
               <h2 class="place__title">Куршская коса</h2>
               <nav class="place__website">
                 <div class="place__url-heading">URL</div>
-                <a class="place__link" href="" target="_blank">park-kosa.ru</a>
+                <a class="place__link link-behavior" href="http://park-kosa.ru" target="_blank">park-kosa.ru</a>
               </nav>
               <img class="place__image" src="./images/place-kosa.jpg" alt="куршская коса">
               <div class="place__article">
@@ -69,7 +71,7 @@
               <h2 class="place__title">Кольский</h2>
               <nav class="place__website">
                 <div class="place__url-heading">URL</div>
-                <a class="place__link" href="" target="_blank">National Geographic</a>
+                <a class="place__link link-behavior" href="https://yourshot.nationalgeographic.com/photos/?keywords=kolskiy" target="_blank">National Geographic</a>
               </nav>
               <img src="./images/place-kolsky.jpg" alt="кольский" class="place__image">
               <div class="place__article">
@@ -83,7 +85,7 @@
               <h2 class="place__title">Алтай</h2>
               <nav class="place__website">
                 <div class="place__url-heading">URL</div>
-                <a class="place__link" href="" target="_blank">Facebook</a>
+                <a class="place__link link-behavior" href="https://www.facebook.com/vera.bashmakova/posts/10156011613718822" target="_blank">Facebook</a>
               </nav>
               <img src="./images/place-altai.jpg" alt="алтай" class="place__image">
               <div class="place__article">
@@ -97,7 +99,7 @@
               <h2 class="place__title">Зимний Байкал</h2>
               <nav class="place__website">
                 <div class="place__url-heading">URL</div>
-                <a class="place__link" href="" target="_blank">https://vk.com/baikalmile</a>
+                <a class="place__link link-behavior" href="https://vk.com/baikalmile" target="_blank">https://vk.com/baikalmile</a>
               </nav>
               <img src="./images/place-winter-baikal.jpg" alt="зимний байкал" class="place__image">
               <div class="place__article">
@@ -111,7 +113,7 @@
               <h2 class="place__title">Карелия</h2>
               <nav class="place__website">
                 <div class="place__url-heading">URL</div>
-                <a class="place__link" href="" target="_blank">http://vodlozero.ru/</a>
+                <a class="place__link link-behavior" href="http://vodlozero.ru" target="_blank">http://vodlozero.ru/</a>
               </nav>
               <img src="./images/place-karelia.jpg" alt="карелия" class="place__image">
               <div class="place__article">
@@ -130,11 +132,11 @@
       <div class="footer__table">
         <nav class="footer__nav">
           <ul class="footer__nav-list">
-            <li class="footer__list-item"><a class="footer__link" href="https://yandex.ru/maps" target="_blank">Карты</a></li>
-            <li class="footer__list-item"><a class="footer__link" href="https://yandex.ru/pogoda" target="_blank">Погода</a></li>
-            <li class="footer__list-item"><a class="footer__link" href="https://rasp.yandex.ru" target="_blank">Расписание</a></li>
-            <li class="footer__list-item"><a class="footer__link" href="https://calendar.yandex.ru" target="_blank">Календарь</a></li>
-            <li class="footer__list-item"><a class="footer__link" href="https://travel.yandex.ru" target="_blank">Путешествия</a></li>
+            <li class="footer__list-item"><a class="footer__link link-behavior" href="https://yandex.ru/maps" target="_blank">Карты</a></li>
+            <li class="footer__list-item"><a class="footer__link link-behavior" href="https://yandex.ru/pogoda" target="_blank">Погода</a></li>
+            <li class="footer__list-item"><a class="footer__link link-behavior" href="https://rasp.yandex.ru" target="_blank">Расписание</a></li>
+            <li class="footer__list-item"><a class="footer__link link-behavior" href="https://calendar.yandex.ru" target="_blank">Календарь</a></li>
+            <li class="footer__list-item"><a class="footer__link link-behavior" href="https://travel.yandex.ru" target="_blank">Путешествия</a></li>
           </ul>
         </nav>
         <cite class="footer__copyright">&copy; 2022. Николай Смолов</cite>

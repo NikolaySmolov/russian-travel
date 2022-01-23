@@ -1,22 +1,27 @@
 .places__list {
-  margin-top: 64px;
-  margin-bottom: 66px;
+  margin: 0 0 66px;
   padding: 0;
   list-style: none;
   display: grid;
+  justify-items: center;
   row-gap: 50px;
+  line-height: 0;
 }
 
 @media (min-width: 768px) {
   .places__list {
-    margin: 88px 24px 90px;
+    margin-left: 24px;
+    margin-right: 24px;
+    margin-bottom: 90px;
     row-gap: 73px;
   }
 }
 
 @media (min-width: 1024px) {
   .places__list {
-    margin: 92px 48px 92px;
+    margin-left: 48px;
+    margin-right: 48px;
+    margin-bottom: 92px;
     row-gap: 80px;
   }
 }

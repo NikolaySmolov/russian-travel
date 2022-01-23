@@ -1,6 +1,5 @@
 .lead__caption {
-  margin: 8px 0 0 18px;
-  padding: 0;
+  margin: 8px 18px 0 18px;
   font-size: 10px;
   line-height: 14px;
   font-weight: 400;
@@ -11,11 +10,13 @@
 @media (min-width: 768px) {
   .lead__caption {
     margin-left: 24px;
+    margin-right: 24px;
   }
 }
 
 @media  (min-width:1024px) {
   .lead__caption {
     margin-left: 0;
+    margin-right: 0;
   }
 }

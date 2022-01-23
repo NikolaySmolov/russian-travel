@@ -1,0 +1,6 @@
+@media (min-width: 1280px) {
+  .page__cover-link {
+    margin-left: 48px;
+    margin-right: 48px;
+  }
+}

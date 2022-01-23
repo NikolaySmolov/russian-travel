@@ -1,15 +1,15 @@
 .page__cover {
-  margin: 66px auto 64px;
+  margin-bottom: 64px;
 }
 
 @media (min-width: 768px) {
   .page__cover {
-    margin: 90px auto 88px;
+    margin-bottom: 88px;
   }
 }
 
 @media (min-width: 1024px) {
   .page__cover {
-    margin: 92px auto 92px;
+    margin-bottom: 92px;
   }
 }

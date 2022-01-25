@@ -10,7 +10,7 @@
   z-index: 0;
 }
 
-.cover::before{
+.cover::before {
   content: "";
   background-color: rgba(42, 44, 47, .3);
   position: absolute;

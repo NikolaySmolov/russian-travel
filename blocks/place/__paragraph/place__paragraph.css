@@ -13,5 +13,7 @@
 @media (min-width: 1024px) {
   .place__paragraph {
     margin-bottom: 27px;
+    font-size: 18px;
+    line-height: 29px;
   }
 }

@@ -1,0 +1,10 @@
+.page__footer {
+  margin: 0 16px 0;
+}
+
+@media (min-width: 1024px) {
+  .page__footer {
+    margin-left: 48px;
+    margin-right: 48px;
+  }
+}
